@@ -4,25 +4,43 @@ import imutils
 import math
 import time
 import Seed
+import sys
+
 ############################################################################
 # open the video file and text file to log coordinates                     #
 ############################################################################
-cap = cv2.VideoCapture("./test1.m4v")
+cap = cv2.VideoCapture("../test-videos/translucent-plain/fast/seed-counter-wheat.mp4")
+
+try:
+    cap = cv2.VideoCapture("../test-videos/translucent-plain/" + sys.argv[4] + "/seed-counter-" + sys.argv[3] + ".mp4")
+except IndexError:
+    pass
+
 f1 = open('./coords.txt', 'w+')
 ############################################################################
 # initialize variables                                                     #
 ############################################################################
 num_seeds = 0     # number of seeds
-areaL = 800       # the lowest number of pixels that represents a seed
+areaL = 400       # the lowest number of pixels that represents a seed
 areaH = 8000      # the highest number of pixels that represent a seed
 denoise = 50      # used for Gaussian blur
 delay_time = 0    # amount of time delay between frames (sec)
 firstFrame = None # first frame used as background
 
+try:
+    areaL = sys.argv[1]
+except IndexError:
+    pass
+
+try:
+    areaH = sys.argv[2]
+except IndexError:
+    pass
+    
 w_v = int(cap.get(3)) #get width of the video
 h_v = int(cap.get(4)) #get height of the video
 print("Video width: ", w_v, ", video height: ", h_v)
-
+print("areaL : ", areaL, ", areaH : ", areaH)
 down_limit = int(0.9*h_v) # process contours from 0 down to this line (previously used due to seeds bouncing back) 
 
 font = cv2.FONT_HERSHEY_SIMPLEX
@@ -48,6 +66,8 @@ NEW_THRESHOLD = 200   # minimum size for contour to be considered as a seed
 PREDICT_ON = False     # mark predicted locations on images output
 MOD_VAL = 1           # process frames with fc % MOD_VAL == MOD_OFFSET (if MOD_VAL=1, MOD_OFFSET=0, then process all)
 MOD_OFFSET = 0
+FRAME_PATH = "../frames" #the directory location to store different frames
+
 ############################################################################ 
 # Process frames                                                           #
 ############################################################################ 
@@ -61,13 +81,13 @@ while(cap.isOpened()):
         # frame = imutils.rotate(frame, 270)
 
         if (fc>=MIN_FRAME) and (fc<=MAX_FRAME) and (VERBOSE==True):
-            cv2.imwrite(str(fc) + "_1_frame.png", frame)
+            cv2.imwrite(FRAME_PATH + "normal/" + str(fc) + "_1_frame.png", frame)
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)   # convert to grayscale
         if (fc>=MIN_FRAME) and (fc<=MAX_FRAME) and (VERBOSE==True):
-            cv2.imwrite(str(fc) + "_2_gray_frame.png", gray)
+            cv2.imwrite(FRAME_PATH + "grayscale/" + str(fc) + "_2_gray_frame.png", gray)
         gray = cv2.GaussianBlur(gray, (5, 5), 0)       # small Gaussian blur to reduce noise
         if (fc>=MIN_FRAME) and (fc<=MAX_FRAME) and (VERBOSE==True):
-            cv2.imwrite(str(fc) + "_3_blur_frame.png", gray)
+            cv2.imwrite(FRAME_PATH + "blur/" + str(fc) + "_3_blur_frame.png", gray)
 
         # if this is the first frame, just initialize firstFrame and continue
         if firstFrame is None:
@@ -77,7 +97,7 @@ while(cap.isOpened()):
         # otherwise, compute the absolute difference between the current frame and firstFrame
         frame2 = cv2.absdiff(firstFrame,gray)        
         if (fc>=MIN_FRAME) and (fc<=MAX_FRAME) and (VERBOSE==True):
-            cv2.imwrite(str(fc) + "_4_absdiff_frame.png", frame2)
+            cv2.imwrite(FRAME_PATH + "absdiff/" + str(fc) + "_4_absdiff_frame.png", frame2)
 
         # compute binary threshold, bits 0-denoise are black, (denoise+1) to 255 are white.
         ret,thresh1 = cv2.threshold(frame2,int(denoise),255,cv2.THRESH_BINARY)
@@ -87,7 +107,7 @@ while(cap.isOpened()):
         #    cv2.THRESH_BINARY,11,2)
 
         if (fc>=MIN_FRAME) and (fc<=MAX_FRAME) and (VERBOSE==True):
-            cv2.imwrite(str(fc) + "_5_thresh_frame.png", thresh1)
+            cv2.imwrite(FRAME_PATH + "threshold/" + str(fc) + "_5_thresh_frame.png", thresh1)
         kernel = np.ones((5,5),np.uint8)
 
         # eroding doesn't help much...
@@ -96,12 +116,13 @@ while(cap.isOpened()):
         
         opening = cv2.morphologyEx(thresh1, cv2.MORPH_OPEN, kernel)
         if (fc>=MIN_FRAME) and (fc<=MAX_FRAME) and (VERBOSE==True):
-            cv2.imwrite(str(fc) + "_6_opening_frame.png", opening)
+            cv2.imwrite(FRAME_PATH + "opening/" + str(fc) + "_6_opening_frame.png", opening)
 
     # if there are no more frames, output number of seeds           
     except:
         #print("EOF")
         print('Number of seeds: ',num_seeds)
+        print('Average Area: ', ave_area)
         break
     
     ########################################################################
@@ -247,7 +268,7 @@ while(cap.isOpened()):
 
         cv2.imshow('Seed Count Application',frame)
         if (fc>=MIN_FRAME) and (fc<=MAX_FRAME) and ((FINAL_FRAME==True) or (VERBOSE==True)):
-            cv2.imwrite(str(fc) + "_7_frame.png", frame)
+            cv2.imwrite(FRAME_PATH + "predictedframe/" + str(fc) + "_7_frame.png", frame)
 
         time.sleep(float(delay_time))
 

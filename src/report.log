@@ -1,0 +1,231 @@
+
+##########################################################
+############## Wed Aug 16 18:37:51 CDT 2017 ##############
+##########################################################
+logs/wheat-1000-8000-normal.log:('Number of seeds: ', 431)
+logs/wheat-1200-8000-normal.log:('Number of seeds: ', 426)
+logs/wheat-200-8000-normal.log:('Number of seeds: ', 434)
+logs/wheat-400-8000-normal.log:('Number of seeds: ', 434)
+logs/wheat-600-8000-normal.log:('Number of seeds: ', 433)
+logs/wheat-800-8000-normal.log:('Number of seeds: ', 431)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 18:44:08 CDT 2017 ##############
+##########################################################
+logs/sesame-seeds-1000-8000-normal.log:('Number of seeds: ', 151)
+logs/sesame-seeds-1200-8000-normal.log:('Number of seeds: ', 56)
+logs/sesame-seeds-200-8000-normal.log:('Number of seeds: ', 4001)
+logs/sesame-seeds-400-8000-normal.log:('Number of seeds: ', 2549)
+logs/sesame-seeds-600-8000-normal.log:('Number of seeds: ', 535)
+logs/sesame-seeds-800-8000-normal.log:('Number of seeds: ', 295)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 18:46:47 CDT 2017 ##############
+##########################################################
+logs/popcorn-1000-8000-normal.log:('Number of seeds: ', 225)
+logs/popcorn-1200-8000-normal.log:('Number of seeds: ', 225)
+logs/popcorn-200-8000-normal.log:('Number of seeds: ', 225)
+logs/popcorn-400-8000-normal.log:('Number of seeds: ', 225)
+logs/popcorn-600-8000-normal.log:('Number of seeds: ', 225)
+logs/popcorn-800-8000-normal.log:('Number of seeds: ', 225)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 18:48:28 CDT 2017 ##############
+##########################################################
+logs/white-soya-beans-1000-8000-normal.log:('Number of seeds: ', 127)
+logs/white-soya-beans-1200-8000-normal.log:('Number of seeds: ', 127)
+logs/white-soya-beans-200-8000-normal.log:('Number of seeds: ', 127)
+logs/white-soya-beans-400-8000-normal.log:('Number of seeds: ', 127)
+logs/white-soya-beans-600-8000-normal.log:('Number of seeds: ', 127)
+logs/white-soya-beans-800-8000-normal.log:('Number of seeds: ', 127)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 18:50:19 CDT 2017 ##############
+##########################################################
+logs/red-seeds-1000-8000-normal.log:('Number of seeds: ', 258)
+logs/red-seeds-1200-8000-normal.log:('Number of seeds: ', 221)
+logs/red-seeds-200-8000-normal.log:('Number of seeds: ', 298)
+logs/red-seeds-400-8000-normal.log:('Number of seeds: ', 287)
+logs/red-seeds-600-8000-normal.log:('Number of seeds: ', 284)
+logs/red-seeds-800-8000-normal.log:('Number of seeds: ', 273)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 18:52:43 CDT 2017 ##############
+##########################################################
+logs/brown-seeds-1000-8000-normal.log:('Number of seeds: ', 2487)
+logs/brown-seeds-1200-8000-normal.log:('Number of seeds: ', 1979)
+logs/brown-seeds-200-8000-normal.log:('Number of seeds: ', 3312)
+logs/brown-seeds-400-8000-normal.log:('Number of seeds: ', 2891)
+logs/brown-seeds-600-8000-normal.log:('Number of seeds: ', 2769)
+logs/brown-seeds-800-8000-normal.log:('Number of seeds: ', 2823)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 18:54:12 CDT 2017 ##############
+##########################################################
+logs/corn-1000-8000-normal.log:('Number of seeds: ', 44)
+logs/corn-1200-8000-normal.log:('Number of seeds: ', 44)
+logs/corn-200-8000-normal.log:('Number of seeds: ', 51)
+logs/corn-400-8000-normal.log:('Number of seeds: ', 50)
+logs/corn-600-8000-normal.log:('Number of seeds: ', 47)
+logs/corn-800-8000-normal.log:('Number of seeds: ', 44)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:05:48 CDT 2017 ##############
+##########################################################
+logs/sesame-seeds-200-10000-normal.log:('Number of seeds: ', 4001)
+logs/sesame-seeds-200-12000-normal.log:('Number of seeds: ', 4001)
+logs/sesame-seeds-200-15000-normal.log:('Number of seeds: ', 4001)
+logs/sesame-seeds-200-18000-normal.log:('Number of seeds: ', 4001)
+logs/sesame-seeds-200-27000-normal.log:('Number of seeds: ', 4001)
+logs/sesame-seeds-200-8000-normal.log:('Number of seeds: ', 4001)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:09:09 CDT 2017 ##############
+##########################################################
+logs/wheat-200-10000-normal.log:('Number of seeds: ', 434)
+logs/wheat-200-12000-normal.log:('Number of seeds: ', 434)
+logs/wheat-200-15000-normal.log:('Number of seeds: ', 434)
+logs/wheat-200-18000-normal.log:('Number of seeds: ', 434)
+logs/wheat-200-27000-normal.log:('Number of seeds: ', 434)
+logs/wheat-200-8000-normal.log:('Number of seeds: ', 434)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:10:14 CDT 2017 ##############
+##########################################################
+logs/popcorn-200-10000-normal.log:('Number of seeds: ', 225)
+logs/popcorn-200-12000-normal.log:('Number of seeds: ', 226)
+logs/popcorn-200-15000-normal.log:('Number of seeds: ', 226)
+logs/popcorn-200-18000-normal.log:('Number of seeds: ', 226)
+logs/popcorn-200-27000-normal.log:('Number of seeds: ', 226)
+logs/popcorn-200-8000-normal.log:('Number of seeds: ', 225)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:11:37 CDT 2017 ##############
+##########################################################
+logs/white-soya-beans-200-10000-normal.log:('Number of seeds: ', 128)
+logs/white-soya-beans-200-12000-normal.log:('Number of seeds: ', 128)
+logs/white-soya-beans-200-15000-normal.log:('Number of seeds: ', 128)
+logs/white-soya-beans-200-18000-normal.log:('Number of seeds: ', 129)
+logs/white-soya-beans-200-27000-normal.log:('Number of seeds: ', 129)
+logs/white-soya-beans-200-8000-normal.log:('Number of seeds: ', 127)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:12:57 CDT 2017 ##############
+##########################################################
+logs/red-seeds-200-10000-normal.log:('Number of seeds: ', 298)
+logs/red-seeds-200-12000-normal.log:('Number of seeds: ', 298)
+logs/red-seeds-200-15000-normal.log:('Number of seeds: ', 298)
+logs/red-seeds-200-18000-normal.log:('Number of seeds: ', 298)
+logs/red-seeds-200-27000-normal.log:('Number of seeds: ', 298)
+logs/red-seeds-200-8000-normal.log:('Number of seeds: ', 298)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:15:43 CDT 2017 ##############
+##########################################################
+logs/brown-seeds-200-10000-normal.log:('Number of seeds: ', 3316)
+logs/brown-seeds-200-12000-normal.log:('Number of seeds: ', 3322)
+logs/brown-seeds-200-15000-normal.log:('Number of seeds: ', 3334)
+logs/brown-seeds-200-18000-normal.log:('Number of seeds: ', 3301)
+logs/brown-seeds-200-27000-normal.log:('Number of seeds: ', 3325)
+logs/brown-seeds-200-8000-normal.log:('Number of seeds: ', 3312)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:17:19 CDT 2017 ##############
+##########################################################
+logs/corn-200-10000-normal.log:('Number of seeds: ', 102)
+logs/corn-200-12000-normal.log:('Number of seeds: ', 180)
+logs/corn-200-15000-normal.log:('Number of seeds: ', 308)
+logs/corn-200-18000-normal.log:('Number of seeds: ', 334)
+logs/corn-200-27000-normal.log:('Number of seeds: ', 345)
+logs/corn-200-8000-normal.log:('Number of seeds: ', 51)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:37:58 CDT 2017 ##############
+##########################################################
+logs/sesame-seeds-400-10000-normal.log:('Number of seeds: ', 2549)
+logs/sesame-seeds-400-12000-normal.log:('Number of seeds: ', 2549)
+logs/sesame-seeds-400-15000-normal.log:('Number of seeds: ', 2549)
+logs/sesame-seeds-400-18000-normal.log:('Number of seeds: ', 2549)
+logs/sesame-seeds-400-27000-normal.log:('Number of seeds: ', 2549)
+logs/sesame-seeds-400-8000-normal.log:('Number of seeds: ', 2549)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:41:44 CDT 2017 ##############
+##########################################################
+logs/wheat-400-10000-normal.log:('Number of seeds: ', 434)
+logs/wheat-400-12000-normal.log:('Number of seeds: ', 434)
+logs/wheat-400-15000-normal.log:('Number of seeds: ', 434)
+logs/wheat-400-18000-normal.log:('Number of seeds: ', 434)
+logs/wheat-400-27000-normal.log:('Number of seeds: ', 434)
+logs/wheat-400-8000-normal.log:('Number of seeds: ', 434)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:42:54 CDT 2017 ##############
+##########################################################
+logs/popcorn-400-10000-normal.log:('Number of seeds: ', 225)
+logs/popcorn-400-12000-normal.log:('Number of seeds: ', 226)
+logs/popcorn-400-15000-normal.log:('Number of seeds: ', 226)
+logs/popcorn-400-18000-normal.log:('Number of seeds: ', 226)
+logs/popcorn-400-27000-normal.log:('Number of seeds: ', 226)
+logs/popcorn-400-8000-normal.log:('Number of seeds: ', 225)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:43:58 CDT 2017 ##############
+##########################################################
+logs/white-soya-beans-400-10000-normal.log:('Number of seeds: ', 128)
+logs/white-soya-beans-400-12000-normal.log:('Number of seeds: ', 128)
+logs/white-soya-beans-400-15000-normal.log:('Number of seeds: ', 128)
+logs/white-soya-beans-400-18000-normal.log:('Number of seeds: ', 129)
+logs/white-soya-beans-400-27000-normal.log:('Number of seeds: ', 129)
+logs/white-soya-beans-400-8000-normal.log:('Number of seeds: ', 127)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:45:15 CDT 2017 ##############
+##########################################################
+logs/red-seeds-400-10000-normal.log:('Number of seeds: ', 287)
+logs/red-seeds-400-12000-normal.log:('Number of seeds: ', 287)
+logs/red-seeds-400-15000-normal.log:('Number of seeds: ', 287)
+logs/red-seeds-400-18000-normal.log:('Number of seeds: ', 287)
+logs/red-seeds-400-27000-normal.log:('Number of seeds: ', 287)
+logs/red-seeds-400-8000-normal.log:('Number of seeds: ', 287)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:47:31 CDT 2017 ##############
+##########################################################
+logs/brown-seeds-400-10000-normal.log:('Number of seeds: ', 2884)
+logs/brown-seeds-400-12000-normal.log:('Number of seeds: ', 2892)
+logs/brown-seeds-400-15000-normal.log:('Number of seeds: ', 2901)
+logs/brown-seeds-400-18000-normal.log:('Number of seeds: ', 2909)
+logs/brown-seeds-400-27000-normal.log:('Number of seeds: ', 2945)
+logs/brown-seeds-400-8000-normal.log:('Number of seeds: ', 2891)
+##########################################################
+
+##########################################################
+############## Wed Aug 16 20:48:57 CDT 2017 ##############
+##########################################################
+logs/corn-400-10000-normal.log:('Number of seeds: ', 101)
+logs/corn-400-12000-normal.log:('Number of seeds: ', 179)
+logs/corn-400-15000-normal.log:('Number of seeds: ', 313)
+logs/corn-400-18000-normal.log:('Number of seeds: ', 347)
+logs/corn-400-27000-normal.log:('Number of seeds: ', 351)
+logs/corn-400-8000-normal.log:('Number of seeds: ', 50)
+##########################################################

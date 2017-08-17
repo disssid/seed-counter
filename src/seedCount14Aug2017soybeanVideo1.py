@@ -7,15 +7,15 @@ import Seed
 ######################################################################################
 # read the video file and open file to write coordinates                             #
 ######################################################################################
-cap = cv2.VideoCapture("../test-videos/normal/seed-counter-corn.mp4")
+cap = cv2.VideoCapture("../test-videos/normal/seed-counter-brown-seeds.mp4")
 f1 = open('./coords.txt', 'w+')
 ######################################################################################
 # initialize variables                                                               #
 ######################################################################################
 num_seeds = 0 # number of seeds
-areaL = 600   # the lowest number of pixels that represents a seed (was 800, reduce due to erosion)
+areaL = 400   # the lowest number of pixels that represents a seed (was 800, reduce due to erosion)
 
-areaH = 27000  # the highest number of pixels that represent a seed
+areaH = 8000  # the highest number of pixels that represent a seed
 
 #give the user to input
 #areaL = input("Please input areaL(min area of your object,default is 800):")
